@@ -1,0 +1,48 @@
+.App-header {
+  background-color: #282c34;
+  height: 50%;
+  display: flex;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.sub-app{
+  padding-left: 2.5%;
+  display: flex;
+  /* font-size: calc(10px + 2.5vmin); */
+}
+
+.Heading {
+  padding-left: 2.5%;
+  padding-right: 47.5%;
+
+}
+
+.div-elements-online {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.children {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.Headings {
+  align-items: right;
+  justify-content: right;
+  padding-left: 5%;
+  padding-right: 2.5%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a { color:white;
+  text-decoration: none } /* Globally */
+
+  h1 { white-space: nowrap; }
