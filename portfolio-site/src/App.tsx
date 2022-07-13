@@ -1,9 +1,7 @@
 import './App.css';
-import WorkExp from './work-exp/Work-Experience'
-import Education from './education/education'
-import Projects from './projects/projects'
 import Hangman from './projects/hangman'
-import { Route, Link } from 'react-router-dom';
+import Home from './Home'
+import { Routes, Route, Link } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
@@ -14,12 +12,10 @@ function App() {
         <h2 className="Headings"><a href = "https://leetcode.com/OliverJLooney/" >leetcode</a></h2>
         <h2 className="Headings">C.V</h2>
       </header>
-      <body>
-        <WorkExp />
-        <Education />
-        <Projects />
-        <Hangman/>
-      </body>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/hangman" element={<Hangman/>}/>
+        </Routes>
     </div>
   );
 }

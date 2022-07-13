@@ -5,14 +5,7 @@ import Projects from './projects/projects'
 import Hangman from './projects/hangman'
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <h1 className="Heading">Oliver Looney</h1>
-        <h2 className="Headings"><a href = "https://github.com/Oliver-Looney" >github</a></h2>
-        <h2 className="Headings"><a href = "https://leetcode.com/OliverJLooney/" >leetcode</a></h2>
-        <h2 className="Headings">C.V</h2>
-      </header>
+    <div className="Home">
       <body>
         <WorkExp />
         <Education />
