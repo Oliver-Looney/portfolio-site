@@ -3,8 +3,7 @@ import WorkExp from './work-exp/Work-Experience'
 import Education from './education/education'
 import Projects from './projects/projects'
 import Hangman from './projects/hangman'
-import { Route, Link } from 'react-router-dom';
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
@@ -24,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
